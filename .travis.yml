@@ -3,6 +3,9 @@ language: python
 python:
   - "3.8"
 
+arch:
+  - amd64
+  - arm64
 
 install:
   - git config --global user.email "bumpversion-test-git@travis.ci"
