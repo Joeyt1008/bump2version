@@ -15,5 +15,6 @@ install:
   - echo -e '[ui]\nusername = Testing Mercurial on Travis CI <bumpversion-test-hg@travis.ci>' > ~/.hgrc
   - hg --version
   - pip install tox-travis
+  - uname -m
 
 script: tox
